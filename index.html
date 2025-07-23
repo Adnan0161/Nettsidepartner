@@ -123,10 +123,10 @@
 
 <section id="kontakt">
   <h2>Kontakt oss</h2>
-  <form class="contact-form">
-    <input type="text" placeholder="Navn" required>
-    <input type="email" placeholder="E-post" required>
-    <textarea placeholder="Din melding" rows="5" required></textarea>
+  <form action="https://formspree.io/f/xzzveydz" method="POST" class="contact-form">
+    <input type="text" name="navn" placeholder="Navn" required>
+    <input type="email" name="email" placeholder="E-post" required>
+    <textarea name="melding" placeholder="Din melding" rows="5" required></textarea>
     <button type="submit">Send melding</button>
   </form>
 
